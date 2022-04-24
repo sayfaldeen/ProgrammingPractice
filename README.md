@@ -6,3 +6,5 @@
 	1. ./n-sum.py [N integer sum problem]
 	2. ./string-match.py [Number of matches between 2 strings]
 	3. ./gcd.py [Find greatest common denominator]
+	4. ./linear-search.py [Search through unordered list]
+	5. ./binary-search.py [Search through ordered list]
