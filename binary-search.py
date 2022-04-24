@@ -21,7 +21,6 @@ The algorithm will be implemented in 2 ways:
 def Iter(data, item):
     "Iterative implementation"
 
-
     if not data[0] <= item <= data[-1]:
         print(f"Item {item} not in data")
         return None
