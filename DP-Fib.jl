@@ -19,4 +19,4 @@ function DPFib(n::Int)
 	return memo[n]
 end
 
-println([DPFib(n) for n in 0:30])
+println([DPFib(n) for n in 0:50])

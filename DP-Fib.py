@@ -28,4 +28,4 @@ def DPFib(n):
     memo[n] = memo[n-1] + memo[n-2]
     return memo[n]
 
-print([DPFib(x) for x in range(0,30)])
+print([DPFib(x) for x in range(0,50)])
