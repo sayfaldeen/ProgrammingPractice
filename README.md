@@ -8,3 +8,4 @@
 	3. ./gcd.py [Find greatest common denominator]
 	4. ./linear-search.py [Search through unordered list]
 	5. ./binary-search.py [Search through ordered list]
+	6. ./quickselect.py [Find a specific k-order statistic within data]
