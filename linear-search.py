@@ -118,6 +118,13 @@ print(Rec(data, item))
 print(f"Recursive solution took {round(time.time() - ts,6)} seconds")
 
 
+""" #################### Results ####################
+15
+Iterative solution took 6e-06 seconds
+15
+Recursive solution took 2e-06 seconds
+"""
+
 
 """ #################### Summary ####################
 

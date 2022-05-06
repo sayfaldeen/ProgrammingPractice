@@ -50,6 +50,16 @@ ts = time.time()
 print(RecSum(100))
 print(f"Recrusive solution took {round(time.time() - ts,6)} seconds")
 
+""" #################### Results ####################
+5050
+Iterative solution took 1.2e-05 seconds
+5050
+List comp solution took 5e-06 seconds
+5050
+Recrusive solution took 2.4e-05 seconds
+"""
+
+
 """
 This is a good example of performance of the different appraoches
 

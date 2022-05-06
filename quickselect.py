@@ -119,6 +119,14 @@ print(Rec(data,k))
 print(f"Recursive solution took {round(time.time() - ts,6)} seconds")
 
 
+""" #################### Results ####################
+200
+Iterative solution took 1.7e-05 seconds
+200
+Recursive solution took 8e-06 seconds
+"""
+
+
 """ #################### Summary ####################
 
 Interestingly, the RECURSIVE solution was FASTER. This is possible due to us recombining the lower, pivot, and higher data into one strucutre. This was the 

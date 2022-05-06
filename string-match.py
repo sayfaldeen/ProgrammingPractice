@@ -94,6 +94,20 @@ print(RecMatch(s1,s2))
 print(f"Recursive solution took {round(time.time() - ts,6)} seconds")
 
 
+""" #################### Results ####################
+36
+Iterative solution took 1.2e-05 seconds
+36
+List comp solution took 8e-06 seconds
+36
+Numpy solution took 5.4e-05 seconds
+36
+Numpy solution took 5e-06 seconds WITH pre-done vectors
+36
+Recursive solution took 3.6e-05 seconds
+"""
+
+
 """ #################### Summary ####################
 
 This time, numpy vectorization is the fastest, followed closely by list comp. We see a big performance hit using 

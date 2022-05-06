@@ -88,6 +88,13 @@ print(Rec(data, item))
 print(f"Iterative solution took {round(time.time() - ts,6)} seconds")
 
 
+""" #################### Results ####################
+4
+Iterative solution took 5e-06 seconds
+4
+Iterative solution took 2e-06 seconds
+"""
+
 
 """ #################### Summary ####################
 This was a perfect example of recursion making it easier to solve this problem (at least for me).

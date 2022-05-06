@@ -135,6 +135,14 @@ ts = time.time()
 print(f"The recursive solution WITH 'adjacent search' took {time.time() - ts :0.4e} seconds to run")
 
 
+""" #################### Results ####################
+200
+Iterative solution took 1.7e-05 seconds
+200
+Recursive solution took 8e-06 seconds
+"""
+
+
 """ #################### Summary ####################
 
 This time I only implemented the recursive approach because of the nuisance of implementing an iterative 
