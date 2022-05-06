@@ -127,21 +127,21 @@ def _Rec2(data, index=0):
 data = [-2, -5, 100, 5, -200, 10, 1,2,0, 9]
 
 ts = time.time()
-#print(Rec(data))
+print(Rec(data))
 print(f"The recursive solution took {time.time() - ts :0.4e} seconds to run")
 
 ts = time.time()
-#print(Rec2(data))
+print(Rec2(data))
 print(f"The recursive solution WITH 'adjacent search' took {time.time() - ts :0.4e} seconds to run")
 
 
 """ #################### Results ####################
-200
-Iterative solution took 1.7e-05 seconds
-200
-Recursive solution took 8e-06 seconds
-"""
+{0: -200, 1: -5, 2: -2, 3: 0, 4: 1, 5: 2, 6: 5, 7: 9, 8: 10, 9: 100}
+The recursive solution took 3.3140e-05 seconds to run
+{0: -200, 1: -5, 2: -2, 3: 0, 4: 1, 5: 2, 6: 5, 7: 9, 8: 10, 9: 100}
+The recursive solution WITH 'adjacent search' took 2.2173e-05 seconds to run
 
+"""
 
 """ #################### Summary ####################
 
