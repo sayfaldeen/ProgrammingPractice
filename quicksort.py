@@ -137,10 +137,9 @@ print(f"The recursive solution WITH 'adjacent search' took {time.time() - ts :0.
 
 """ #################### Results ####################
 {0: -200, 1: -5, 2: -2, 3: 0, 4: 1, 5: 2, 6: 5, 7: 9, 8: 10, 9: 100}
-The recursive solution took 3.3140e-05 seconds to run
+The recursive solution took 1.2350e-04 seconds to run
 {0: -200, 1: -5, 2: -2, 3: 0, 4: 1, 5: 2, 6: 5, 7: 9, 8: 10, 9: 100}
-The recursive solution WITH 'adjacent search' took 2.2173e-05 seconds to run
-
+The recursive solution WITH 'adjacent search' took 7.0333e-05 seconds to run
 """
 
 """ #################### Summary ####################

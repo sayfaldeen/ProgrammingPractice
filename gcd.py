@@ -50,16 +50,16 @@ print(f"Recursive solution took {round(time.time() - ts,6)} seconds")
 
 """ #################### Results ####################
 15
-Iterative solution took 6e-06 seconds
+Iterative solution took 2.1e-05 seconds
 15
-Recursive solution took 2e-06 seconds
+Recursive solution took 1e-05 seconds
 """
 
 
 """ #################### Summary ####################
 
-Not much to show here but how to implement Euclid's algorithm both ways
+Recursive implementation is actually faster here as well. This may be due to the additional assignments necessary
+    within the while-loop.
 
-Once again, Iterative is faster, and here, by using the while loop, iterative is also just as neat
-
+Once again, the simplicity of the recursive function is beneficial.
 """

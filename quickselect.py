@@ -121,9 +121,9 @@ print(f"Recursive solution took {round(time.time() - ts,6)} seconds")
 
 """ #################### Results ####################
 200
-Iterative solution took 1.7e-05 seconds
+Iterative solution took 5.2e-05 seconds
 200
-Recursive solution took 8e-06 seconds
+Recursive solution took 2.1e-05 seconds
 """
 
 
